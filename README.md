@@ -62,7 +62,7 @@ A bonus automation script for testing selected target models back‑to‑back.
 ```
 
 ### Grep Extraction  
-Filter results instantly to view evaluation performance data from the log file:
+Filter results to view evaluation performance data from the log file:
 
 ```bash
 grep -E "STARTING TEST FOR|eval rate:|Error" benchmark.log
@@ -71,7 +71,6 @@ grep -E "STARTING TEST FOR|eval rate:|Error" benchmark.log
 ---
 
 ## 4. BENCHMARK LOG DATA MATRIX  
-
 
 
 | Modelfile Name | Model Name | Size (GB) | Prompt Rate (t/s) | Eval Rate (t/s) |
@@ -94,11 +93,11 @@ grep -E "STARTING TEST FOR|eval rate:|Error" benchmark.log
 
 ---
 
-## 🌌 The Ultimate Proof of Concept
+## 🌌 Self-Documenting Proof of Concept
 
-Look at the text you are reading right now. This README.md document wasn't typed by a human, and it wasn't generated in the cloud. It was compiled, formatted, and written completely locally using the `gpt-oss:120b` model running directly on this exact 12‑core, e‑waste M10 server cluster. 
+Look at the text you are reading right now. This README.md document was compiled, formatted, and written completely locally using the `gpt-oss:120b` model running directly on this exact 12‑core, e‑waste M10 server cluster. 
 
-There is no better proof that this parallel architecture works than letting a massive 120B model document its own engine.
+Demonstrating a 120B model documenting its own orchestration matrix serves as a clear proof of concept for this parallel layout.
 
 ### 📊 Live Generation Performance Logs
 
@@ -121,3 +120,4 @@ eval rate:            7.70 tokens/s
 This project is open-source and licensed under the MIT License. 
 
 *Disclaimer: As an eBay Partner, I earn from qualifying purchases made via the component overview links above at no additional cost to you. These tracking links directly fund components and cooling materials on the Transistor Corner testing workbench.*
+cost to you. These tracking links directly fund components and cooling materials on the Transistor Corner testing workbench.*
