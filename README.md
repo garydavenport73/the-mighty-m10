@@ -7,18 +7,18 @@ Using e-waste to run large AI models locally with 2 Linux scripts.
 ## 1. MY RIG  
 - **Project Directory**: [mightym10](https://webpagearea.com)  
 - **GitHub Repository**: [the-mighty-m10](https://github.com)  
-- **Motherboard**: Supermicro X9SCM‑F (LGA1155, Intel C204 Chipset, circa 2012)  
+- **Motherboard**: [Supermicro X9SCM‑F](https://ebay.us/c6BHLv) (LGA1155, Intel C204 Chipset, circa 2012)  
 - **CPU**: Intel® Xeon® CPU E3‑1230 V2 @ 3.30 GHz  
-- **Memory**: 32GB (Runs fine with 16GB) Server‑grade DDR3 ECC RAM (Ultra cost‑effective)
-- **Graphics**: 3 × NVIDIA Tesla M10 (Maxwell architecture)  
+- **Memory**: [Server‑grade DDR3 ECC RAM](https://ebay.us/7uB6MW) 32GB (Runs fine with 16GB) (Ultra cost‑effective)
+- **Graphics**: [3 × NVIDIA Tesla M10](https://ebay.us/ZBH09u) (Maxwell architecture)  
   - Each card hosts 4 independent GM107 cores with 8 GB GDDR5 VRAM → 12 individual 8 GB GPU nodes (Total: 96 GB VRAM / \$225 GPU cost).
-- **PSU**: [MSI MAG A750GL 750-Watt Power Supply](https://ebay.us)
-- **Cooling**: [3D Printed Tesla M10 Fan Shrouds](https://ebay.com) running dedicated small cooling fans (One for each M10 card), powered by [OPSFALCON SATA to Dual 2-Pin Fan Adapter Splitter Cables](https://ebay.us).
+- **PSU**: [MSI MAG A750GL 750-Watt Power Supply](https://ebay.us/iMjSJl)
+- **Cooling**: [3D Printed Tesla M10 Fan Shrouds](https://ebay.com) running dedicated small cooling fans (One for each M10 card), powered by [OPSFALCON SATA to Dual 2-Pin Fan Adapter Splitter Cables](https://ebay.us/SNNJlR).
 - **Riser Topology**:  
-  - [Mechanical PCI-E 8x to 16x Hard Riser Card Adapters](https://ebay.us) (For slot clearance stability)
-  - [PCIe x16 Flexible Shielded Riser Cable 3.0](https://ebay.us) (For layout extension mapping)  
+  - [Mechanical PCI-E 8x to 16x Hard Riser Card Adapters](https://ebay.us/RILpjg) (For slot clearance stability)
+  - [PCIe x16 Flexible Shielded Riser Cable 3.0](https://ebay.us/ekxGCG) (For layout extension mapping)  
   - Slots 1 & 2: PCIe 3.0 ×8 | Bottom slot: PCIe 2.0 ×4 (System communication latency floor).  
-- **Chassis**: [ATX Open Frame PC Test Bench Case](https://ebay.us) (DIY Component Rack)
+- **Chassis**: [ATX Open Frame PC Test Bench Case](https://ebay.us/x8juLA) (DIY Component Rack)
 - **OS & Drivers**: Linux Mint 21.3 (Virginia) | Kernel 5.15.0‑173‑generic | NVIDIA Driver 535.288.01 | CUDA 12.2
 
 ---
@@ -73,6 +73,7 @@ grep -E "STARTING TEST FOR|eval rate:|Error" benchmark.log
 ## 4. BENCHMARK LOG DATA MATRIX  
 
 
+
 | Modelfile Name | Model Name | Size (GB) | Prompt Rate (t/s) | Eval Rate (t/s) |
 |:---|:---|:---|:---|:---|
 | `siz008g-ctx32768-bat0512-tmp0.80-deepseek-coder-v2-16b:latest` | deepseek-coder-v2-16b | 8 | 21.06 | **12.38** |
@@ -120,4 +121,3 @@ eval rate:            7.70 tokens/s
 This project is open-source and licensed under the MIT License. 
 
 *Disclaimer: As an eBay Partner, I earn from qualifying purchases made via the component overview links above at no additional cost to you. These tracking links directly fund components and cooling materials on the Transistor Corner testing workbench.*
-cost to you. These tracking links directly fund components and cooling materials on the Transistor Corner testing workbench.*
