@@ -5,8 +5,8 @@ Using e-waste to run large AI models locally with 2 Linux scripts.
 ![The Mighty M10 Workbench Rig](M10Rig.jpg)
 
 ## 1. MY RIG  
-- **Project Directory**: [mightym10](https://webpagearea.com)  
-- **GitHub Repository**: [the-mighty-m10](https://github.com)  
+- **Project Directory**: [mightym10](https://webpagearea.com/mightym10)  
+- **GitHub Repository**: [the-mighty-m10](https://github.com/garydavenport73/the-mighty-m10)  
 - **Motherboard**: [Supermicro X9SCM‑F](https://ebay.us/c6BHLv) (LGA1155, Intel C204 Chipset, circa 2012)  
 - **CPU**: Intel® Xeon® CPU E3‑1230 V2 @ 3.30 GHz  
 - **Memory**: [Server‑grade DDR3 ECC RAM](https://ebay.us/7uB6MW) 32GB (Runs fine with 16GB) (Ultra cost‑effective)
