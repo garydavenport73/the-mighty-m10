@@ -13,7 +13,7 @@ Using e-waste to run large AI models locally with 2 Linux scripts.
 - **Graphics**: [3 × NVIDIA Tesla M10](https://ebay.us/ZBH09u) (Maxwell architecture)  
   - Each card hosts 4 independent GM107 cores with 8 GB GDDR5 VRAM → 12 individual 8 GB GPU nodes (Total: 96 GB VRAM / \$225 GPU cost).
 - **PSU**: [MSI MAG A750GL 750-Watt Power Supply](https://ebay.us/iMjSJl)
-- **Cooling**: [3D Printed Tesla M10 Fan Shrouds](https://ebay.com) running dedicated small cooling fans (One for each M10 card), powered by [OPSFALCON SATA to Dual 2-Pin Fan Adapter Splitter Cables](https://ebay.us/SNNJlR).
+- **Cooling**: [3D Printed Tesla M10 Fan Shrouds](https://ebay.us/SNNJlR) running dedicated small cooling fans (One for each M10 card), powered by [OPSFALCON SATA to Dual 2-Pin Fan Adapter Splitter Cables](https://ebay.us/SNNJlR).
 - **Riser Topology**:  
   - [Mechanical PCI-E 8x to 16x Hard Riser Card Adapters](https://ebay.us/RILpjg) (For slot clearance stability)
   - [PCIe x16 Flexible Shielded Riser Cable 3.0](https://ebay.us/ekxGCG) (For layout extension mapping)  
